@@ -6,5 +6,5 @@ export const draw = (sk, props = {}) => {
     sk.textAlign(sk.CENTER);
     sk.text('Work in Progress', 0, 0);
 
-    // sk.orbitControl();
+    sk.orbitControl();
 };
